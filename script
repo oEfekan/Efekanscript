@@ -8,7 +8,7 @@
 --recommended Head:
 --https://www.roblox.com/bundles/337/City-Life-Woman
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/oEfekan/Efekanscript2/main/Gui",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/oEfekan/Efekanscript2/main/main",true))()
 
 
 --reanimate by MyWorld#4430 discord.gg/pYVHtSJmEY
