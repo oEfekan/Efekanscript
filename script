@@ -1,14 +1,9 @@
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/oEfekan/Efekanscript2/main/main",true))()
 
---made by rouxhaver/1+1=2
+--Made By Efekan#3131
 --chat "/e chat " to move your head to someone, then when you chat it looks like they chatted (;
 
---only works well in games without player collison, no chat gui and bubble chat (Like Rate My Avatar)
-
---recommended Head:
---https://www.roblox.com/bundles/337/City-Life-Woman
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/oEfekan/Efekanscript2/main/main",true))()
 
 
 --reanimate by MyWorld#4430 discord.gg/pYVHtSJmEY
