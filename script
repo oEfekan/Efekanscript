@@ -1,3 +1,5 @@
+
+
 --made by rouxhaver/1+1=2
 --chat "/e chat " to move your head to someone, then when you chat it looks like they chatted (;
 
@@ -6,6 +8,7 @@
 --recommended Head:
 --https://www.roblox.com/bundles/337/City-Life-Woman
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/oEfekan/Efekanscript2/main/Gui",true))()
 
 
 --reanimate by MyWorld#4430 discord.gg/pYVHtSJmEY
@@ -854,6 +857,5 @@ while task.wait() do
 end
 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/oEfekan/CombatWarrior2/main/Gui",true))()
 
 
